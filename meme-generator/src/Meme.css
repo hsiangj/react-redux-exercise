@@ -1,0 +1,58 @@
+.container {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  line-break:anywhere;
+  overflow: hidden;
+}
+
+.container img {
+  width: 250px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.container span {
+  display: block;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  font-size: 1.3em;
+  text-shadow: 0 0 3px black; 
+}
+
+.topText {
+  position: absolute;
+  top: 0;
+  margin: 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.3em;
+  color: white;
+  text-shadow: 0 0 3px black; 
+}
+
+.bottomText {
+  position: absolute;
+  bottom: 0;
+  margin: 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.3em;
+  color: white;
+  text-shadow: 0 0 3px black;
+} 
+
+.container button {
+  position: absolute;
+  display: inline-block;
+  bottom: 50%;
+  visibility: hidden;
+  opacity: 0; 
+  color: black;
+  background: white;
+}
+
+.container:hover button{
+  visibility: visible;
+  opacity: 0.5;
+}
